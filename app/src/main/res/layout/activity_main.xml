@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="197dp"
+        android:layout_height="304dp"
+        app:srcCompat="@drawable/usuario"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <EditText
+        android:id="@+id/txteUsuario"
+        android:layout_width="237dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <EditText
+        android:id="@+id/txtePassword"
+        android:layout_width="236dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="233dp"
+        android:layout_height="54dp"
+        android:text="INICIAR"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <TextView
+        android:id="@+id/txtReg"
+        android:layout_width="123dp"
+        android:layout_height="33dp"
+        android:text="REGISTRAR"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+</android.support.constraint.ConstraintLayout>
